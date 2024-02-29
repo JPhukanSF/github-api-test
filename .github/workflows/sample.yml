@@ -2,6 +2,7 @@ name: GitHub Actions Demo
 
 on:
   workflow_dispatch:
+  push:
 
 jobs:
   salesforce-code-analyzer-workflow:
