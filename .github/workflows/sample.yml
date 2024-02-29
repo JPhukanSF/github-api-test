@@ -9,7 +9,7 @@ jobs:
     name: code analyzer
     runs-on: self-hosted
     steps:
-      - name: Check out files
+      - name: Check out file
         uses: actions/checkout@v4
 
       - name: Install Salesforce CLI
